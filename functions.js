@@ -1,3 +1,4 @@
+// ЗАДАЧА 1
 function removeUser() {}
 
 function createPost() {}
@@ -22,6 +23,8 @@ getElements();
 createParentElement();
 startGame();
 sendMessage();
+
+// ЗАДАЧА 2
 
 // Функция для добавления времени
 function addUser(userData) {}
@@ -50,5 +53,57 @@ function addUser(age) {}
 // Функция для вывода веса
 function addUser(weight) {}
 
-// Функция для вывода цвета глащз
+// Функция для вывода цвета глаз
 function addUser(colorOfEye) {}
+
+// ЗАДАЧА 3
+
+// Получить имя пользователя
+function getUserName(name) {
+  return name;
+}
+
+// Получить возраст
+function getAge(age) {
+  return age;
+}
+
+// Получить вес
+function getWeight(weight) {
+  return weight;
+}
+
+// Получить ширину
+function getWidth(width) {
+  return width;
+}
+
+// Получить ширину
+function getHeght(height) {
+  return height;
+}
+
+// Получить цвет
+function getColor(color) {
+  return color;
+}
+
+// Получить скорость
+function getSpeed(speed) {
+  return speed;
+}
+
+// Получить стоимость
+function getPrice(price) {
+  return price;
+}
+
+// Получить просто слово
+function getWord(word) {
+  return word;
+}
+
+// Получить просто число
+function getNumber(number) {
+  return number;
+}
