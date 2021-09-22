@@ -144,3 +144,11 @@ function RaiseRam(ram) {
 }
 
 console.log(RaiseRam(8));
+
+// ЗАДАЧА 5
+
+function firstElement(data) {
+  return data[0];
+}
+
+console.log(firstElement([30, 95, 77]));
