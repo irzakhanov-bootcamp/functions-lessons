@@ -196,3 +196,19 @@ console.log(getSumOfFirstAndLastElement([]));
 
 // Вызываем функцию с параметром масива
 console.log(getSumOfFirstAndLastElement([3, 7, 12, 8]));
+
+// ЗАДАЧА 8
+
+let text = "css";
+
+function testVariableScope() {
+  let text = "html";
+
+  return text;
+}
+
+console.log(testVariableScope());
+
+/*
+    Данная функция возврашает "html" так как область видимости переменной text локальна по отношении к вызываемой функции, она содается в этой функции и ее же возвращает
+*/
