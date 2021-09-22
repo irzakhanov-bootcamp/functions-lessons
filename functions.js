@@ -147,16 +147,52 @@ console.log(RaiseRam(8));
 
 // ЗАДАЧА 5
 
+// функция возвращает первый эллемент массива
 function firstElement(data) {
   return data[0];
 }
-
+// Вывод в консоль
 console.log(firstElement([30, 95, 77]));
 
 // ЗАДАЧА 6
 
+// функция возвращает поледний эллемент массива
 function lastElement(data) {
   return data[data.length - 1];
 }
-
+// Вывод в консоль
 console.log(lastElement([30, 95, 77]));
+
+// ЗАДАЧА 7
+
+// Создание функцию которая принимает 2 аргумента (Имя и фамилия) и возвращает полное имя и фамилия
+function printMyFullName(firstname, secondname) {
+  // Создание переменной и конкатенация 2х аргументов в новую переменную
+  const fullname = `${firstname} ${secondname}`;
+
+  // Возвращаем результат конкатенации
+  return fullname;
+}
+
+// Вывод в консоль результат функции
+console.log(printMyFullName("into", "code"));
+
+// Создаем функцию получения суммы первого и последнего эллемента массив
+function getSumOfFirstAndLastElement(arr) {
+  if (arr.length < 2) {
+    // Если длина массива меньше 2х Возвращаем текст и прерываем выполнение функции
+    return "леее, минимум два элемента нужно жи есть";
+  } else {
+    // Иначе получаем последний эллемент массива и присваиваем в переменную
+    const lastIndex = arr.length - 1;
+
+    // Возврашаем сумму первого и последнего эллемента массива
+    return arr[0] + arr[lastIndex];
+  }
+}
+
+// Вызываем функцию передавая пустой массив
+console.log(getSumOfFirstAndLastElement([]));
+
+// Вызываем функцию с параметром масива
+console.log(getSumOfFirstAndLastElement([3, 7, 12, 8]));
