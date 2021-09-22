@@ -152,3 +152,11 @@ function firstElement(data) {
 }
 
 console.log(firstElement([30, 95, 77]));
+
+// ЗАДАЧА 6
+
+function lastElement(data) {
+  return data[data.length - 1];
+}
+
+console.log(lastElement([30, 95, 77]));
