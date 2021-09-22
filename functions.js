@@ -107,3 +107,40 @@ function getWord(word) {
 function getNumber(number) {
   return number;
 }
+
+// ЗАДАЧА 4
+
+// Функция удвоения зарплаты
+function RaiseSalary(salary) {
+  return salary * 2;
+}
+
+console.log(RaiseSalary(50000));
+
+// Функция возвращает удвоенный вес
+function ReiseWeight(weight) {
+  return weight * 2;
+}
+
+console.log(ReiseWeight(75));
+
+// Функция удвоения времени
+function RaiseTime(time) {
+  return time * 2;
+}
+
+console.log(RaiseTime(15));
+
+// Функция удвоения денег
+function RaiseMoney(money) {
+  return money * 2;
+}
+
+console.log(RaiseMoney(100));
+
+// Функция удвоения оперативной памяти
+function RaiseRam(ram) {
+  return ram * 2;
+}
+
+console.log(RaiseRam(8));
